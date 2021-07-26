@@ -11,6 +11,7 @@
 		5C5111A926AEDD950074AF36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5111A826AEDD950074AF36 /* ContentView.swift */; };
 		5C5111AB26AEDD9F0074AF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5111AA26AEDD9F0074AF36 /* Assets.xcassets */; };
 		5C5111AE26AEDD9F0074AF36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5111AD26AEDD9F0074AF36 /* Preview Assets.xcassets */; };
+		5C5111B626AEDDD40074AF36 /* SafeAreaInsetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5111B526AEDDD40074AF36 /* SafeAreaInsetsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5C5111AA26AEDD9F0074AF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C5111AD26AEDD9F0074AF36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C5111AF26AEDD9F0074AF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5111B526AEDDD40074AF36 /* SafeAreaInsetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				5C5111A626AEDD950074AF36 /* SwiftUIDemosApp.swift */,
 				5C5111A826AEDD950074AF36 /* ContentView.swift */,
+				5C5111B526AEDDD40074AF36 /* SafeAreaInsetsView.swift */,
 				5C5111AA26AEDD9F0074AF36 /* Assets.xcassets */,
 				5C5111AF26AEDD9F0074AF36 /* Info.plist */,
 				5C5111AC26AEDD9F0074AF36 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				5C5111A926AEDD950074AF36 /* ContentView.swift in Sources */,
 				5C5111A726AEDD950074AF36 /* SwiftUIDemosApp.swift in Sources */,
+				5C5111B626AEDDD40074AF36 /* SafeAreaInsetsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
