@@ -6,5 +6,7 @@ GeometryReader is the answer. We have to use safe area insets from GeometryReade
 Starting from iPhoneX safe area insets are different to the old iPhones.
 This demo shows how to position the content in your app according to safe area.
 
+SafeAreaInsetsViewSecond demonstrates another approach to set the full screen background, but child will respect the safe area
+
 ![SwiftUIDemos](./Screenshot1.png "SwiftUI Demos")
 ![SwiftUIDemos](./Screenshot2.png "SwiftUI Demos")
