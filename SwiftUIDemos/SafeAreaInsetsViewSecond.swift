@@ -11,7 +11,10 @@ struct SafeAreaInsetsViewSecond: View {
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.yellow, .green]), startPoint: .leading, endPoint: .trailing)
-                .background(Color.blue.ignoresSafeArea())
+                .background(Color.orange.ignoresSafeArea()) //orange - safe area color
+            Text("Safe area is orange")
+            Text("Yes, navigation decrease the view with gradient")
+            Text("Check the difference iPhone 8 and X")
         }
     }
 }
