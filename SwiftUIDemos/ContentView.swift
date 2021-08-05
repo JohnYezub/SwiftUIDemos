@@ -9,7 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        SafeAreaInsetView()
+        NavigationView {
+            List {
+                NavigationLink(destination: SafeAreaInsetsViewSecond()) {
+                    Text("Safe area simple")
+                }
+                NavigationLink(destination: SafeAreaInsetsView()) {
+                    Text("Safe area full control")
+                }
+                NavigationLink(destination: PositionReader()) {
+                    Text("Position reader")
+                }
+            }
+            .navigationTitle("SwiftUIDemos")
+        }
+
     }
 }
 
