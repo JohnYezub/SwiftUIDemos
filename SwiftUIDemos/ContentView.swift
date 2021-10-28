@@ -14,16 +14,21 @@ struct ContentView: View {
                 NavigationLink(destination: SafeAreaInsetsViewSecond()) {
                     Text("Safe area simple")
                 }
+
                 NavigationLink(destination: SafeAreaInsetsView()) {
                     Text("Safe area full control")
                 }
+
                 NavigationLink(destination: PositionReader()) {
                     Text("Position reader")
+                }
+
+                NavigationLink(destination: RoutingView()) {
+                    Text("Custom switching between views")
                 }
             }
             .navigationTitle("SwiftUIDemos")
         }
-
     }
 }
 

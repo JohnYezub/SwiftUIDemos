@@ -1,6 +1,6 @@
 # SwiftUI Demos
 
-There are 3 demo:
+There are 4 demo:
 
 1. Safe area simple: SafeAreaInsetsViewSecond demonstrates another approach to set the full screen background, but child will respect the safe area. 
 
@@ -11,6 +11,8 @@ Starting from iPhoneX safe area insets are different to the old iPhones.
 This demo shows how to position the content in your app according to safe area.
 
 3. PositionReader: use of modifier with KeyPreference for each view, demonstrates how child views can provide data to the root view. In this example we get the CGRect of child and translate it to root view and display.
+
+4. RoutungView: Uses presenting view which contains a router. By switching router pages presenting view will update the content. Transition animation gives us native navigation look.
 
 ![SwiftUIDemos](./Screenshot1.png "SwiftUI Demos")
 ![SwiftUIDemos](./Screenshot2.png "SwiftUI Demos")
